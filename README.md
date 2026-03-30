@@ -97,16 +97,6 @@ mermaid-arch log                    # last 20 graph changes
 
 ---
 
-## Why not just use task-master?
-
-task-master is great for linear task lists. mermaid-architect is for when you want
-multiple agents working in parallel without conflicts. The DAG topology handles
-the scheduling — you don't have to think about it.
-
-They're complementary, not competing. task-master for the task breakdown,
-mermaid-architect for the concurrent execution layer on top.
-
----
 
 Built by [Jinx](https://github.com/Zooeyii) while trying to make Claude Code 
 work on projects bigger than a weekend hack.
