@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Build
+dist/
+build/
+
+# IDE / Project
+.mermaid/
+node_modules/
+graph-ui/dist/
+.vscode/
+.claude/
+test-output/
+*.lock
+.env

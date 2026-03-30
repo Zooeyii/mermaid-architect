@@ -1,0 +1,16 @@
+/**
+ * @mermaid
+ * id: __NODE_ID__
+ * layer: __LAYER__
+ * responsibility: __RESPONSIBILITY__
+ * location: __FILE_PATH__
+ * upstream: __UPSTREAM__
+ * downstream: __DOWNSTREAM__
+ * related: __RELATED__
+ * tdd: __TDD_ENTRY__
+ * expected: __EXPECTED__
+ * key_functions: __KEY_FUNCTIONS__
+ * local_mermaid:
+ *   flowchart TD
+ *     __LOCAL_MERMAID__
+ */
