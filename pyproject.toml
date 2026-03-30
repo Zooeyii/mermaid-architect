@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mermaid-architect"
+version = "0.1.0"
+description = "Mermaid DAG driven design and execution skill"
+dependencies = []
+
+[project.scripts]
+mermaid-arch = "mermaid_architect.cli:main"
