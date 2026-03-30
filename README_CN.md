@@ -92,15 +92,6 @@ mermaid-arch velocity             # 各层完成速度统计
 mermaid-arch log                  # 最近 20 条图变更记录
 ```
 
----
-
-## 为什么不直接用 task-master？
-
-task-master 很适合线性任务列表。mermaid-architect 适合多个 Agent
-并行工作且不产生冲突的场景。DAG 拓扑自动处理调度，你不需要想这些。
-
-两者互补，不是竞争。task-master 做任务拆解，
-mermaid-architect 在上面做并发执行层。
 
 ---
 
