@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README_CN.md)
+
 # Mermaid Architect
 
 **Structure beats capability. Give your AI a map.**
