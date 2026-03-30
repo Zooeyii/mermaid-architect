@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "mermaid-architect"
 version = "0.1.0"
 description = "Mermaid DAG driven design and execution skill"
-dependencies = []
+dependencies = ["mcp"]
 
 [project.scripts]
 mermaid-arch = "mermaid_architect.cli:main"

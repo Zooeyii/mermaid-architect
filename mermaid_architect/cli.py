@@ -256,6 +256,14 @@ def main():
                     print(f"  {ctype:10s} {change['from']} → {change['to']}")
         return
 
+    if command == "mcp":
+        source = args[1] if len(args) > 1 else ".mermaid/current"
+        from mermaid_architect.mcp_server import run_mcp_server
+        import os
+        os.environ.setdefault("MERMAID_GRAPH_DIR", source)
+        run_mcp_server()
+        return
+
     if command == "work":
         source = args[1] if len(args) > 1 else ".mermaid/current"
         from mermaid_architect.work_cmd import run_work
